@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="portfolio.css" />
+<link rel="stylesheet" href="portfolio.css" media="screen" />
+<link rel="stylesheet" href="portfoliomobile.css" media="screen and (max-width: 1000px)"/>
+<meta name="viewpoint" content="width=device-width, initial-scale=1"/> 
 </head>
 <div class="Grid">
     <header>
@@ -10,8 +12,11 @@
        
         <nav>
 <div class="Page-Title"> Portfolio </div>
-        <ul>
-        <li><a href="Index.html">Home</a></li>
+<li><a class="navigation" href="#menu"></a></li>
+     <ul>
+<ul id="menu">
+    <li><a class="exit" href="#"></a>X </a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="Contact.html">Contact</a></li>
         <li><a href="CV.html">CV</a></li>
         <li><a href="SiteReport.html">Site Report</a></li>
