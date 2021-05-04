@@ -30,7 +30,7 @@ nav ul li {
     }
 nav ul ul {
     display: block;
-    background-color: blueviolet;
+    background-color: rgb(5, 206, 179);
     top: 0;
     margin-left: 0px;
     width: 30%;
@@ -137,7 +137,7 @@ nav ul ul li {
     text-transform: uppercase;
 }
 footer {
-    background-color:blueviolet;
+    background-color: rgb(5, 206, 179);
     border-top: 5px solid black;
 }
 .maintext {
