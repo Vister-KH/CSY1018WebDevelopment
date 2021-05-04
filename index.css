@@ -113,7 +113,8 @@ p {
     margin-left: 0px;
     max-width: 1200px;
     font-size: 30px;
-    
+}
+img {
+    border: 5px solid black;
     
 }
-
