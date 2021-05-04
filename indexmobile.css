@@ -30,30 +30,35 @@ nav ul li {
 nav ul ul {
     display: block;
     background-color: blueviolet;
-    top: 0px;
+    top: 0;
     margin-left: 0px;
-    width: 20%;
-    height: 50vh;
+    width: 30%;
+    height: 100vh;
     text-align: left;
     border-left: 2px solid black;
+    float: right;
+    left: 70%;
+
     
 }
 nav li {
-    height: 30%;
+    height: 4%;
     font-size: 20px;
     text-decoration: none;
     list-style: none;
     text-transform: uppercase;
     position: relative;
+    text-align: left;
 }
 nav a {
     font-size: 20px;
     text-decoration: none;
     text-transform: uppercase;
-    margin-top: 10px;
+    margin-top: 0px;
     list-style: none;
     text-decoration: none;
     color: black;
+    
 }
 nav a:hover {
     color: white;
@@ -66,7 +71,7 @@ nav a:hover {
 display: none;
 }
 #menu:target {
-    display: none;
+    display: block;
 }
 #menu:target li {
     display: block;
