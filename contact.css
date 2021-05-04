@@ -140,3 +140,8 @@ select {
     height: 30px;
     width: 100px; 
 }
+.exit {
+    display: none;
+    color:blueviolet;
+    opacity: 0%;
+}

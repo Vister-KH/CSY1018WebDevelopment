@@ -118,3 +118,6 @@ img {
     border: 5px solid black;
     
 }
+.exit {
+    display: none;
+}
